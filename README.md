@@ -1,5 +1,6 @@
 # ESP-MQTT sample application is foundation for this flowmeter firmware
 flow-meter data sheet is available in the root here
+The code does sample  the ultrasound speed and the flow rate in l/s and tramsit it to the thingspeak.com  for storage and visualisation
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
 
 This example connects to the broker URI selected using `idf.py menuconfig` (using mqtt tcp transport) and as a demonstration subscribes/unsubscribes and send a message on certain topic.
